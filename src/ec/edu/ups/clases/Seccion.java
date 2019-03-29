@@ -8,24 +8,38 @@ package ec.edu.ups.clases;
 public class Seccion {
     
     private String nombre;
-    private Noticia noticia;
+    private Noticia noticias[];
     
 
+    //set´s
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
-    public void setNoticia(Noticia noticia) {
-        this.noticia = noticia;
+    public void setNoticias(Noticia[] noticias) {
+        this.noticias = noticias;
     }
     
+    
+    //get's
+    /**
+     * 
+     * @return 
+     */
+
     public String getNombre() {
-        return this.nombre;   
+        return nombre;
     }
 
-    public Noticia getNoticia() {
-        return this.noticia;
+    public Noticia[] getNoticias() {
+        return noticias;
     }
+
+    
+    
+    
+    
+    
         
     
 }
