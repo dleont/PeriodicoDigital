@@ -46,7 +46,7 @@ public class Prueba {
         
         multi.setNombre("Messi");
         multi.setTamanoByte(100);
-        multi.setPath("C:/Users/Carmen Bravo/Documents");
+        multi.setPath("C:/Users/Darwin Leon/Documents");
         
         String nombreM= multi.getNombre();
         System.out.println("Nombre:" + nombreM);
