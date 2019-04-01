@@ -4,7 +4,7 @@ package ec.edu.ups.clases;
 import java.util.Date;
 
 /**
- *
+ * Asiganar valores a la clase Noticia
  * @author Darwin
  */
 public class Noticia {
